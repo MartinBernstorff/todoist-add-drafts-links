@@ -1,9 +1,6 @@
 import logging
-from datetime import datetime
 from pytodoist import todoist
 from credentials import USER, PASS
-from pynput import keyboard
-import os
 import sys
 import re
 import threading
